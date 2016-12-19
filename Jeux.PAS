@@ -39,7 +39,7 @@ begin
 	for i:=1 to length(text) do
 	begin
 		lettre:=Copy(text,i,1);
-		Delay(20);
+		Delay(50);
 		GotoXY(a,b);
 		write(lettre);
 		a:=a+1;
